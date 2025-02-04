@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home{
+    background-image: url('../assets/ross-sneddon-sWlDOWk0Jp8-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    section{
+        background-color: rgba(189, 186, 186, 0.5);
+        width: 27vw;
+        height: 50vh;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    #name{
+        width: 20vw;
+        height: 5vh;
+        border-radius: 5rem;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 3rem;
+        border-style: inherit;
+    }
+    .play-button{
+        ul{
+            list-style: none;
+            text-align: center;
+            margin-top: 3rem; 
+            .play{
+                margin-left: 1rem;
+                font-size: 28px;
+                font-weight: 600;
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }  
+        }
+        width: 18vw;
+        background-color: rgb(255, 255, 255);
+        height: 6vh;
+        border-radius: 30px;
+        margin-left: 4rem;
+    }
+    .play-button:hover{
+        background-color: rgb(218, 223, 223);
+    } 
+    .auth{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 3.5rem;
+        
+    }
+    .login{
+        background-color: rgb(232, 85, 85);
+        color: black;
+        cursor: pointer;
+        border-radius: 30px;
+        height: 5vh;
+        width: 10vw;
+        text-align: center;
+        text-decoration: none;
+        font-size: 23px;
+        padding-top: 0.2rem;
+        font-weight: 600;
+    }
+    .login:hover{
+        background-color: rgb(238, 57, 57);
+    }
+    .signup{
+        background-color: rgb(93, 176, 93);
+        color: black;
+        cursor: pointer;
+        border-radius: 30px;
+        height: 5vh;
+        width: 10vw;
+        text-align: center;
+        text-decoration: none;
+        font-size: 23px;
+        font-weight: 600;
+        padding-top: 0.2rem;
+    }
+    .signup:hover{
+        background-color: rgb(113, 227, 113);
+    }
+}
+
+

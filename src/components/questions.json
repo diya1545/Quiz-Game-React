@@ -1,0 +1,26 @@
+[
+{
+    "questions": "What is the full form of DBMS?",
+    "optionA": "Data Management System",
+    "optionB": "DataBase Management System",
+    "optionC": "DataBare Management System",
+    "optionD": "Data Manage System",
+    "answer": "DataBase Management System"
+},
+{
+    "questions": "What is the color of a panda?",
+    "optionA": "Black",
+    "optionB": "White",
+    "optionC": "Red",
+    "optionD": "Yellow",
+    "answer": "Black and White"
+},
+{
+    "questions": "What is the color of an Elephant?",
+    "optionA": "Black",
+    "optionB": "White",
+    "optionC": "Grey",
+    "optionD": "Brown",
+    "answer": "Grey"
+}
+]

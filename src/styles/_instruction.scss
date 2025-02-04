@@ -1,0 +1,48 @@
+.container{
+    border: 1px solid darken(rgb(219, 215, 215), 10%);
+    border-radius: 5px;
+    // margin-top: 4rem;
+    padding: 3rem 10rem;
+    height: 65vh;
+    width: 50vw;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    p{
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: underline;
+        margin-top: 2rem;
+    }
+    .lifeline-icon{
+        position: relative;
+        // top: -1px;
+        color: rgb(81, 220, 81);
+    }
+    .browser{
+        padding-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .button{
+        display: flex;
+        justify-content: space-around;
+        .left{
+            font-size: 25px;
+            text-decoration: underline;
+            color: blue;
+            margin-right: 17rem;
+        }
+        .right{
+            font-size: 25px;
+            text-decoration: underline;
+            color: blue;
+        }
+    }
+}
+
+

@@ -1,0 +1,99 @@
+/* Result.scss */
+
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2c3e50;
+$success-color: #28a745;
+$error-color: #e74c3c;
+$warning-color: #f39c12;
+$background-color: #f4f4f9;
+$border-radius: 8px;
+$box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+// Mixins
+@mixin center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// Main styles for the result container
+.result-container {
+  @include center;
+  text-align: center;
+  padding: 30px;
+  max-width: 800px;
+  margin: 60px auto;
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  h1 {
+    font-size: 2.5rem;
+    color: $secondary-color;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    color: $secondary-color;
+    margin: 10px 0;
+  }
+
+  .success-icon {
+    font-size: 4rem;
+    color: $success-color;
+  }
+
+  .remark {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    font-weight: bold;
+
+    &.low-score {
+      color: $error-color;  // Red
+    }
+
+    &.medium-score {
+      color: $warning-color;  // Orange
+    }
+
+    &.high-score {
+      color: $success-color;  // Green
+    }
+  }
+
+  .no-stats {
+    font-size: 1.5rem;
+    color: $error-color;
+    margin-top: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 15px 0;
+
+      a {
+        text-decoration: none;
+        color: $primary-color;
+        font-size: 1.2rem;
+        transition: color 0.3s;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
